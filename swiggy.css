@@ -1,0 +1,243 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headerMain{
+    height:80vh;
+    width: 100%;
+    /* background: red; */
+}
+.header{
+    display: flex;
+}
+.navAll{
+    width: 60%;
+    margin-left: 150px;
+    align-items: center;
+    height: 80vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.btns{
+    display: flex;
+}
+#logo{
+    height: 60px;
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+#login{
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 15px;
+}
+#login:hover{
+    color: orange;
+    transition: 0.9s ease;
+}
+.signUp{
+    background-color: black;
+    padding: 3px;
+    color: white;
+    border:  none;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#sideAd{
+    width: 100%;
+    object-fit: fill;
+    height: 80vh;
+    width: 650px;
+}
+#titles{
+    margin-top: 50px;
+}
+#titles h1{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+#titles p{
+    font-size: 20px;
+    font-weight:300;
+    margin-top: -10px;
+}
+.inputWithBtn{
+    display: flex;
+    width: 96%;
+    /* padding: 8px; */
+    justify-content: space-between;
+    /* background-color: aqua; */
+    border: 2px solid gray;
+    align-items: center;
+    margin-top: 50px;
+    height: 50px;
+}
+.inputWithBtn input{
+    border: none;
+    outline: none;
+    width: 450px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.searchBtn2{
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.lastPortion{
+
+    margin-top: 20px;
+}
+#places1{
+    font-size:15px;
+}
+
+#places{
+    font-size: 13px;
+    text-align: justify;
+    width: 95%;
+}
+.lastPortion h3{
+    font-weight: 300;
+    color: gray;
+}
+.lastPortion p{
+    font-weight: 300;
+    color: gray;
+}
+.services{
+    background-color: #282c3f;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+.services1{
+    margin-left: 100px;
+    display: flex;
+    margin-right: 100px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    justify-content: center;
+    color: white;
+}
+.services1 img{
+    height: 180px;
+}
+.services1 p{
+    margin-top: -15px;
+    font-weight: 200;
+    color: rgb(192, 190, 190);
+}
+.lastPortionNow{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.left{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 400px;
+}
+.left h3{
+    font-size: 30px;
+}
+#nnnn{
+    margin-top: -20px;
+}
+.left p{
+    font-size: 20px;
+    color: gray;
+}
+.lastImages{
+    display: flex;
+}
+
+.lastImages img{
+    width: 185px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    margin-left: 50px;
+}
+.right img{
+  
+    width: 300px;
+    height: 100%;
+}
+
+.right #img2{
+    margin-top: 50px;
+}
+
+.lists{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.lists li{
+    margin-top: 10px;
+    
+    
+}
+.lists h1{
+    color: grey;
+    font-size: 15px;
+    margin-left: 35px;
+}
+.list1 li{
+    list-style: none;
+    font-size: 12px;
+    color: white;
+    
+    
+    
+}
+.list2 li{
+    list-style: none;
+    font-size: 12px;
+    color: white;
+}
+.list3 li{
+    list-style: none;
+    font-size: 12px;
+    color: white;
+}
+.list4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+   
+}
+
+.list4 img{
+    width: 185px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+    
+}
+.lists img{
+    margin-top: 10px;
+}
+  
+
+  
